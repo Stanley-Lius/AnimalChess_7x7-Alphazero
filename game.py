@@ -25,7 +25,7 @@ class State:
     # 判斷是否落敗
     def is_lose(self):
         for i in range(49):
-            if self.pieces[i] == 4: # ライオン存在
+            if self.pieces[i] == 4: # 獅子存在
                 return False
         return True
 
