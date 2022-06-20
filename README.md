@@ -1,6 +1,6 @@
 # AnimalChess_7x7-Alphazero
 ***使用7x7而不是3x4棋盤大小的動物將棋，其他規則都跟[3x4](https://github.com/Stanley-Lius/AnimalChess_3x4-Alphazero)一樣***  
-***會改變的有game.py中棋盤的大小、敵我方棋勢、可以下的棋步選擇，以及對偶網路dual_network.py中的輸入輸出***  
+***會改變的有game.py中棋盤的大小、敵我方棋勢、可以下的棋步選擇，以及對偶網路dual_network.py中的輸入輸出，還有就是在遊玩GUI畫面中的棋盤大小集動作顯示會相差甚遠(這專案中的7multiply7.py就是human_play.py，只是棋盤配置集棋子所在位置不同)***  
 # AnimalChess_7x7-Alphazero
 使用alphazero架構訓練AI遊玩動物將棋
 # 大二下python期末專題
