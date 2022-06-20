@@ -12,7 +12,7 @@ import os
 # 設定參數
 DN_FILTERS  = 128 # 卷積層的卷積核數
 DN_RESIDUAL_NUM =  16 # 殘差塊數
-DN_INPUT_SHAPE = (7, 7, 14) # 輸入 shape，3x4 為盤面大小，14 為我方與敵方的配置
+DN_INPUT_SHAPE = (7, 7, 14) # 輸入 shape，7x7 為盤面大小，14 為我方與敵方的配置
 DN_OUTPUT_SIZE = 539 # 動作數（動作公式算出來的總動作數）
 
 # 畳み込み層の作成
